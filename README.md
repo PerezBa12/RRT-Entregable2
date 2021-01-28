@@ -5,7 +5,7 @@ Esta practica se ha realizado implementando el protocolo Stop&Wait, como se come
 que recibe el trafico desde distintas entradas y lo reenvia al siguiente nodo en función de una probabilidad, y un Fin que sera el nodo final y donde acaban los mensajes que se envian.
 
 Dentro de la Fuente, se han generado distintas funciones entre las que encontramos:
-    virtual void initialize() override; --> Inicializa las variables de estadisticas y envia el primer mensaje a la vez que activa el envio de los siguientes mensajes.
+    virtual void initialize() override; --> Inicializa las variables de estadisticas y activa el envio de los siguientes mensajes.
     virtual double getDepartures(double lambda); --> Generador de tiempos para el envio de los paquetes.
     virtual double getLengths(double mu); --> Generador de tamaños para la generación de los paquetes.
     virtual MyNetMsg* getPacket(); --> Generación de los paquetes inicializando los campos.
