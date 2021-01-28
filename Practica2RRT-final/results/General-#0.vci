@@ -1,0 +1,37 @@
+file 9768 1611843885                                            
+version 2
+run General-0-20210128-15:21:14-1444
+attr configname General
+attr datetime 20210128-15:21:14
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network MyNet
+attr processid 1444
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param MyNet.fuente1.lambda 2
+param MyNet.fuente1.tampaquete 1000
+param MyNet.fuente2.lambda 2
+param MyNet.fuente2.tampaquete 1000
+param MyNet.fuente3.lambda 2
+param MyNet.fuente3.tampaquete 1000
+
+vector 0 MyNet.fuente1 packetSize ETV
+vector 1 MyNet.fuente1 lambdaVector ETV
+vector 2 MyNet.fuente2 packetSize ETV
+vector 3 MyNet.fuente2 lambdaVector ETV
+vector 4 MyNet.fuente3 packetSize ETV
+vector 5 MyNet.fuente3 lambdaVector ETV
+0	808 1687 1 1194 0.208107476471 22.115468299907 44 66.442348192038 4600.6190904816 44408.727225639 104774537.08961
+1	2495 1670 1 1194 0.208107476471 22.115468299907 44 0.208107476471 22.115468299907 525.64502454933 8479.7639797422
+2	4165 1453 2 1062 0.208107476471 20.720668489677 38 56.471129921374 4555.0739064929 44374.328374461 104579445.03065
+3	5618 1438 2 1062 0.208107476471 20.720668489677 38 0.208107476471 20.720668489677 438.24221793792 6332.5575004913
+4	7056 1366 3 1151 0.208107476471 21.48962222012 36 126.72780162477 4083.464139456 45079.553115126 92463130.16852
+5	8422 1344 3 1151 0.208107476471 21.48962222012 36 0.208107476471 21.48962222012 330.88684325061 4621.0609229558
+
